@@ -1,0 +1,67 @@
+{
+  "name": "react-boilerplate",
+  "private": true,
+  "scripts": {
+    "build": "tsc && vite build",
+    "clean-install": "rm -rf pnpm-lock.yaml node_modules && pnpm install",
+    "dev": "vite",
+    "npkill": "npx npkill",
+    "pnpm-store-prune": "pnpm store prune",
+    "prepare": "husky install",
+    "preview": "vite preview",
+    "sort-package-json": "npx sort-package-json"
+  },
+  "lint-staged": {
+    "src/*.{ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@musma/react-component": "^1.1.21",
+    "@react-google-maps/api": "^2.18.1",
+    "apollo": "^2.34.0",
+    "axios": "^1.4.0",
+    "file-saver": "^2.0.5",
+    "i18next": "^22.4.15",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "luxon": "^3.3.0",
+    "mobx": "^6.9.0",
+    "mobx-react-lite": "^3.4.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-i18next": "^12.2.2",
+    "react-router-dom": "^6.11.1",
+    "uuid": "^9.0.0",
+    "xlsx": "^0.18.5",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "@emotion/babel-plugin": "^11.11.0",
+    "@musma/eslint-config-react": "^0.1.12",
+    "@types/google.maps": "^3.53.1",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "@vitejs/plugin-react": "^4.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "path": "^0.12.7",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.5",
+    "vite-plugin-svgr": "^3.2.0"
+  }
+}

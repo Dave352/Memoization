@@ -1,0 +1,18 @@
+{
+    "create component": {
+    "prefix": "cc",
+    "body": [
+      "import { observer } from 'mobx-react-lite'",
+      "import { Fragment } from 'react'",
+      "",
+      "export const $TM_FILENAME_BASE = observer(() => {",
+      "  return (",
+      "    <Fragment>",
+      "    </Fragment>",
+       "  )",
+      "})",
+      ""
+    ],
+    "description": ""
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "root": true,
+  "extends": ["@musma/eslint-config-react"]
+}
