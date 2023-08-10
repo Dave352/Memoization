@@ -15,8 +15,6 @@ export const AppLayout = observer(() => {
       navBar={
         <NavBar>
           <NavBarLink icon={FillDashboardIcon} to={RoutePaths.대시보드} label="대시보드" />
-          <NavBarLink icon={FillDashboardIcon} to={RoutePaths.Hello} label="Hello" />
-          <NavBarLink icon={FillDashboardIcon} to={RoutePaths.World} label="World" />
         </NavBar>
       }
     >
